@@ -7,25 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		209136D31DF0F6EB002DB8C0 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209136D21DF0F6EB002DB8C0 /* Media.xcassets */; };
 		AC0544111DE617BA00A5D70B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0544101DE617BA00A5D70B /* main.m */; };
 		AC0544141DE617BA00A5D70B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0544131DE617BA00A5D70B /* AppDelegate.m */; };
-		AC0544171DE617BA00A5D70B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0544161DE617BA00A5D70B /* ViewController.m */; };
 		AC05441A1DE617BB00A5D70B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0544181DE617BB00A5D70B /* Main.storyboard */; };
-		AC05441C1DE617BB00A5D70B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC05441B1DE617BB00A5D70B /* Assets.xcassets */; };
 		AC05441F1DE617BB00A5D70B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC05441D1DE617BB00A5D70B /* LaunchScreen.storyboard */; };
+		AC0544281DE62CED00A5D70B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0544271DE62CED00A5D70B /* LoginViewController.m */; };
+		AC329E211DE8BA3700DD71CD /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC329E201DE8BA3700DD71CD /* TableViewController.m */; };
+		AC329E241DE8D9DA00DD71CD /* GalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC329E231DE8D9DA00DD71CD /* GalleryViewController.m */; };
+		AC5E48651DE77B5A00611406 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5E48641DE77B5A00611406 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		209136D21DF0F6EB002DB8C0 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = Media.xcassets/Media.xcassets; sourceTree = SOURCE_ROOT; };
 		AC05440C1DE617BA00A5D70B /* DemoMDPA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoMDPA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC0544101DE617BA00A5D70B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AC0544121DE617BA00A5D70B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AC0544131DE617BA00A5D70B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AC0544151DE617BA00A5D70B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AC0544161DE617BA00A5D70B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AC0544191DE617BB00A5D70B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AC05441B1DE617BB00A5D70B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC05441E1DE617BB00A5D70B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC0544201DE617BB00A5D70B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC0544261DE62CED00A5D70B /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		AC0544271DE62CED00A5D70B /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		AC329E1F1DE8BA3700DD71CD /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; usesTabs = 0; wrapsLines = 1; };
+		AC329E201DE8BA3700DD71CD /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 1; path = TableViewController.m; sourceTree = "<group>"; tabWidth = 4; wrapsLines = 1; };
+		AC329E221DE8D9DA00DD71CD /* GalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryViewController.h; sourceTree = "<group>"; };
+		AC329E231DE8D9DA00DD71CD /* GalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryViewController.m; sourceTree = "<group>"; };
+		AC5E48631DE77B5A00611406 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AC5E48641DE77B5A00611406 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +69,19 @@
 			children = (
 				AC0544121DE617BA00A5D70B /* AppDelegate.h */,
 				AC0544131DE617BA00A5D70B /* AppDelegate.m */,
-				AC0544151DE617BA00A5D70B /* ViewController.h */,
-				AC0544161DE617BA00A5D70B /* ViewController.m */,
 				AC0544181DE617BB00A5D70B /* Main.storyboard */,
-				AC05441B1DE617BB00A5D70B /* Assets.xcassets */,
+				AC329E221DE8D9DA00DD71CD /* GalleryViewController.h */,
+				AC329E231DE8D9DA00DD71CD /* GalleryViewController.m */,
+				AC329E1F1DE8BA3700DD71CD /* TableViewController.h */,
+				AC329E201DE8BA3700DD71CD /* TableViewController.m */,
 				AC05441D1DE617BB00A5D70B /* LaunchScreen.storyboard */,
 				AC0544201DE617BB00A5D70B /* Info.plist */,
 				AC05440F1DE617BA00A5D70B /* Supporting Files */,
+				AC0544261DE62CED00A5D70B /* LoginViewController.h */,
+				AC0544271DE62CED00A5D70B /* LoginViewController.m */,
+				AC5E48631DE77B5A00611406 /* ViewController.h */,
+				AC5E48641DE77B5A00611406 /* ViewController.m */,
+				209136D21DF0F6EB002DB8C0 /* Media.xcassets */,
 			);
 			path = DemoMDPA;
 			sourceTree = "<group>";
@@ -105,7 +120,7 @@
 		AC0544041DE617BA00A5D70B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Usuario invitado";
 				TargetAttributes = {
 					AC05440B1DE617BA00A5D70B = {
@@ -138,7 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC05441F1DE617BB00A5D70B /* LaunchScreen.storyboard in Resources */,
-				AC05441C1DE617BB00A5D70B /* Assets.xcassets in Resources */,
+				209136D31DF0F6EB002DB8C0 /* Media.xcassets in Resources */,
 				AC05441A1DE617BB00A5D70B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,9 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC0544171DE617BA00A5D70B /* ViewController.m in Sources */,
 				AC0544141DE617BA00A5D70B /* AppDelegate.m in Sources */,
 				AC0544111DE617BA00A5D70B /* main.m in Sources */,
+				AC329E241DE8D9DA00DD71CD /* GalleryViewController.m in Sources */,
+				AC5E48651DE77B5A00611406 /* ViewController.m in Sources */,
+				AC329E211DE8BA3700DD71CD /* TableViewController.m in Sources */,
+				AC0544281DE62CED00A5D70B /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +214,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -243,6 +262,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -270,6 +290,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = DemoMDPA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lasalle.DemoMDPA;
@@ -281,6 +302,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = DemoMDPA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lasalle.DemoMDPA;
@@ -307,6 +329,7 @@
 				AC0544251DE617BB00A5D70B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
